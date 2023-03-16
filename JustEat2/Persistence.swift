@@ -72,7 +72,7 @@ class PersistenceController {
         cart.price = data["price"] as? String
         cart.user = data["user"] as? User
         cart.distance = data["distance"] as? String
-        cart.user?.restrauntid = data["restrauntid"] as? String
+//        cart.user?.restrauntid = data["restrauntid"] as? String
         save()
     }
     

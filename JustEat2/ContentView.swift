@@ -27,7 +27,7 @@ struct ContentView: View {
                     
             
                 else {
-                    GetStartedView(logged: $settings.loggedIn)
+                    GetStartedView()
                 }
             }
         }

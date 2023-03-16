@@ -13,6 +13,9 @@ struct JustEat2App: App {
     
     var body: some Scene {
         WindowGroup {
+//            NavigationView {
+//                Cart()
+//            }
             ContentView()
                 .environmentObject(UserSettings())
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)

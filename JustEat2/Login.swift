@@ -50,7 +50,7 @@ struct Login: View {
                     isPassFocused.toggle()
 //                }
             }
-            SecondaryButton(btnTitle: "Log In"){
+            Button("Log In") {
                 
                 if authenticateUser(email: email, pswd: password){
                     userSetting.signIn()

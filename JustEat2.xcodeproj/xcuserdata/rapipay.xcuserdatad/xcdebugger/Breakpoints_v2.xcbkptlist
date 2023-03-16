@@ -23,22 +23,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "AF12B530-394A-4F98-AAB3-4159D7BB480A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "JustEat2/Login.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "57D877D8-684F-46E3-99CD-468433DF768B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -55,337 +39,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "918C04F7-9769-40CC-8877-C85A2E80B827"
+            uuid = "1F73D789-51BF-4C92-BCE5-4EDA08361897"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "JustEat2/UserSetting.swift"
+            filePath = "JustEat2/ApiData.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
-            landmarkName = "UserSettings"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "918C04F7-9769-40CC-8877-C85A2E80B827 - bf0570c7e27e0a33"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "property wrapper backing initializer of JustEat2.UserSettings.user : JustEat2.User"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "28">
-               </Location>
-               <Location
-                  uuid = "918C04F7-9769-40CC-8877-C85A2E80B827 - 8242f9084854cee5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.user.getter : JustEat2.User"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "96">
-               </Location>
-               <Location
-                  uuid = "918C04F7-9769-40CC-8877-C85A2E80B827 - 8ff63ccbee25cae9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.user.setter : JustEat2.User"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "130">
-               </Location>
-               <Location
-                  uuid = "918C04F7-9769-40CC-8877-C85A2E80B827 - 691ad87bbd339dd8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.user.modify : JustEat2.User"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "0">
-               </Location>
-               <Location
-                  uuid = "918C04F7-9769-40CC-8877-C85A2E80B827 - 5dbf550b3cef0de9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.user.modify : JustEat2.User with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "18">
-               </Location>
-               <Location
-                  uuid = "918C04F7-9769-40CC-8877-C85A2E80B827 - dcbff449800aca86"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.$user.getter : Combine.Published&lt;JustEat2.User&gt;.Publisher"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "94">
-               </Location>
-               <Location
-                  uuid = "918C04F7-9769-40CC-8877-C85A2E80B827 - b6dcc1536d9f128a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.$user.setter : Combine.Published&lt;JustEat2.User&gt;.Publisher"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "180">
-               </Location>
-               <Location
-                  uuid = "918C04F7-9769-40CC-8877-C85A2E80B827 - 9a4cfa88424f5a3d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.$user.modify : Combine.Published&lt;JustEat2.User&gt;.Publisher"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/%3Ccompiler-generated%3E"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "44">
-               </Location>
-               <Location
-                  uuid = "918C04F7-9769-40CC-8877-C85A2E80B827 - be805d845cc43e92"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.$user.modify : Combine.Published&lt;JustEat2.User&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  uuid = "918C04F7-9769-40CC-8877-C85A2E80B827 - df5e582bbf81a7f6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.init() -&gt; JustEat2.UserSettings"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "176">
-               </Location>
-            </Locations>
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "init()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "94C9B38A-FF46-4715-A002-60C795FF9A89"
+            uuid = "1B85349A-9F46-4E71-80C6-DA15B1B0E0AF"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JustEat2/UserSetting.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
-            landmarkName = "UserSettings"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "94C9B38A-FF46-4715-A002-60C795FF9A89 - 7c801a6e293b258d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "property wrapper backing initializer of JustEat2.UserSettings.loggedIn : Swift.Bool"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "21">
-               </Location>
-               <Location
-                  uuid = "94C9B38A-FF46-4715-A002-60C795FF9A89 - 9f6ba7402e64f777"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.loggedIn.getter : Swift.Bool"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  uuid = "94C9B38A-FF46-4715-A002-60C795FF9A89 - a8a4db2a89c1df7b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.loggedIn.setter : Swift.Bool"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "101">
-               </Location>
-               <Location
-                  uuid = "94C9B38A-FF46-4715-A002-60C795FF9A89 - 8c17b1b76c8dd74"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.loggedIn.modify : Swift.Bool"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "0">
-               </Location>
-               <Location
-                  uuid = "94C9B38A-FF46-4715-A002-60C795FF9A89 - 77bfcc1cf8a6a57b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.loggedIn.modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "18">
-               </Location>
-               <Location
-                  uuid = "94C9B38A-FF46-4715-A002-60C795FF9A89 - 894d210da4b5d652"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.$loggedIn.getter : Combine.Published&lt;Swift.Bool&gt;.Publisher"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "94">
-               </Location>
-               <Location
-                  uuid = "94C9B38A-FF46-4715-A002-60C795FF9A89 - 80b7db0b5b701a26"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.$loggedIn.setter : Combine.Published&lt;Swift.Bool&gt;.Publisher"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "180">
-               </Location>
-               <Location
-                  uuid = "94C9B38A-FF46-4715-A002-60C795FF9A89 - 7502fdfe1c5581ce"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.$loggedIn.modify : Combine.Published&lt;Swift.Bool&gt;.Publisher"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/%3Ccompiler-generated%3E"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "44">
-               </Location>
-               <Location
-                  uuid = "94C9B38A-FF46-4715-A002-60C795FF9A89 - dfdcaf505407ada4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.$loggedIn.modify : Combine.Published&lt;Swift.Bool&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  uuid = "94C9B38A-FF46-4715-A002-60C795FF9A89 - df5e582bbf81a7d7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "JustEat2.UserSettings.init() -&gt; JustEat2.UserSettings"
-                  moduleName = "JustEat2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rapipay/Desktop/Swift/JustEat2/JustEat2/UserSetting.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "124">
-               </Location>
-            </Locations>
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "setCartItems(items:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D2C9754-0A21-48A8-AD71-853ABA5F66CB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JustEat2/UserSetting.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "SetUser(user:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

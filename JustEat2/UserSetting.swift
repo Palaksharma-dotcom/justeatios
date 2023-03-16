@@ -8,8 +8,9 @@
 import SwiftUI
 
 class UserSettings: ObservableObject {
+    @Published var user: User!
     @Published var loggedIn = false
-    @Published var user: User?
+    
     func signIn(){
         loggedIn = true
     }
@@ -21,7 +22,7 @@ class UserSettings: ObservableObject {
     }
     
     func setCartItems(items: [Cart]){
-        self.user?.cartItem?.addingObjects(from: items)
+        self.user.cartItem?.addingObjects(from: items)
     }
     
 }

@@ -10,7 +10,6 @@ import SwiftUI
 struct GetStartedView: View {
     @State private var  loginIsActive = false
     @State private var signupIsActive = false
-    @Binding var logged: Bool
     var body: some View {
 //        NavigationView{
             ZStack{
@@ -24,13 +23,13 @@ struct GetStartedView: View {
                     Text("Food For You")
                     Text("With Greatest Ingredient")
                     NavigationLink(destination: Login(), isActive: $loginIsActive){
-                        SecondaryButton(btnTitle: "Log In"){
+                        Button("Log In"){
                             loginIsActive = true
                         }.padding(.horizontal,20)
                     }
                     
                     NavigationLink(destination: SignUp(), isActive: $signupIsActive){
-                        CustomButton(btnTitle: "SignUp"){
+                        Button("SignUp"){
                             signupIsActive = true
                         }.padding(.horizontal,20)
                     }
@@ -48,6 +47,6 @@ struct GetStartedView: View {
 
 struct GetStartedView_Previews: PreviewProvider {
     static var previews: some View {
-        GetStartedView(logged: .constant(false))
+        GetStartedView()
     }
 }

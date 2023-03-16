@@ -81,7 +81,7 @@ struct CartView: View {
                     Text("Please add some item to cart")
                     
                 }.onAppear() {
-                    if let items = settings.user?.cartItem?.allObjects as? [Cart] {
+                    if let items = settings.user.cartItem?.allObjects as? [Cart] {
                         self.cartItems = items
                         deliveryDistance = getMaxDistance()
                     }
@@ -439,7 +439,7 @@ struct CartView: View {
                 }
             }
         }.onAppear() {
-            if let items = settings.user?.cartItem?.allObjects as? [Cart] {
+            if let items = settings.user.cartItem?.allObjects as? [Cart] {
                 self.cartItems = items
                 deliveryDistance = getMaxDistance()
             }

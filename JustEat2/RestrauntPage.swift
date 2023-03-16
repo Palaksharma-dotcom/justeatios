@@ -51,7 +51,7 @@ struct RestrauntPage: View {
                         .cornerRadius(15)
                         
                     Button("ADD +", action: {
-//                        addToCart()
+
                     })
                     .onTapGesture(perform: {
                         addToCart()
@@ -76,15 +76,15 @@ struct RestrauntPage: View {
     func addToCart() {
         if (settings.user?.cartItem?.count == 0 || restrauntid == settings.user?.restrauntid ?? "0"){
             settings.user?.restrauntid = restrauntid
-            
-            PersistenceController.shared.saveCartItem(data: ["name": food.name!, "veg": food.isVeg!, "price": food.price!, "user": settings.user, "distance": distance])
+
+            PersistenceController.shared.saveCartItem(data: ["name": food.name!, "veg": food.isVeg!, "price": food.price!, "user": settings.user, "distance": distance, "restrauntid": restrauntid])
         }
         else{
             showDSSAlert = true
             print("Cart not empty")
         }
-//        PersistenceController.shared.saveCartItem(data: ["name": items.name!, "veg": items.isVeg!, "price": items.price!, "user": settings.user, "distance":  distance])
-        
+//        PersistenceController.shared.saveCartItem(data: ["name": food.name!, "veg": food.isVeg!, "price": food.price!, "user": settings.user, "distance":  distance])
+//
        
     }
 
